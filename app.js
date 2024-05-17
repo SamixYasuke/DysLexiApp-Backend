@@ -12,6 +12,6 @@ app.use(cors());
 
 app.use("/auth", authRoute);
 app.use("/user", userRoute);
-app.use("/admin", adminRoute)
+app.use("/admin", adminRoute);
 
 connectDB(app);
